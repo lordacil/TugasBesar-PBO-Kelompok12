@@ -31,16 +31,12 @@ Disini kami membuat program e-bank sederhana dengan nama e-bank sejahtera guna u
 ### Cara Running Program
 
 untuk merunning/menjalankan program ini yaitu bisa dengan ***2*** cara, yaitu :
-<ol>
-  <li><b>Memakai IDE Online</b></li>
-  <p>untuk memakai IDE Online contohnya bisa menggunakan website dari <b>Repl.it</b>, jika ingin menjalankannya anda bisa langsung mengcopy program filenya lalu paste ke <b>Repl.it</b> atau
-  jika anda tidak mau yang ribet anda bisa langsung klik icon di sebelah kanan ini :</P> [![run on repl.it](https://repl.it/badge/github/chalk/chalk)](https://repl.it/@lordacil/tubes-PBO)
-  <li> Memakai IDE/Text Editor Offline(berbentuk software) </li>
-  </ol>
-1. Memakai IDE Online
-  untuk memakai IDE Online contohnya bisa menggunakan website dari ***Repl.it***, jika ingin menjalankannya anda bisa langsung mengcopy program filenya lalu paste ke repl.it atau
-  jika anda tidak mau yang ribet anda bisa langsung klik icon di sebelah kanan ini : [![run on repl.it](https://repl.it/badge/github/chalk/chalk)](https://repl.it/@lordacil/tubes-PBO)
-2. Memakakai IDE/Text Editor Offline (berbentuk software)
+
+1.**Memakai IDE Online**
+
+untuk memakai IDE Online contohnya bisa menggunakan website dari <em>Repl.it</em>, jika ingin menjalankannya anda bisa langsung mengcopy program filenya lalu paste ke <em>Repl.it</em> atau jika anda tidak mau yang ribet anda bisa langsung klik icon di sebelah kanan ini : ![https://repl.it/@lordacil/tubes-PBO](images/chalk.svg)
+
+2. **Memakai IDE/Text Editor Offline(berbentuk software)**
 
 ## :bookmark_tabs: Class Diagram
 
