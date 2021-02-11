@@ -6,9 +6,11 @@
 
 ## :rice_scene: Pendahuluan
 Assalamualikum wr.wb, Perkenalkan kami dari Kelompok-12 yang beranggotakan :
-- :boy: : **Rizky Nugraha Herliyanto** (19104014)
-- :boy: : **Fawwaz Muhammad Zulfikar** (1910...)
-- :woman: : **Renna Nur Injayani** (1910...)
+| Nama | NIM | Kelas |
+| -- | -- | -- |
+| :boy: : **Rizky Nugraha Herliyanto** | 19104014 | SE03A |
+| :boy: : **Fawwaz Muhammad Zulfikar** | 19104007 | SE03A |
+| :woman: : **Renna Nur Injayani** | 19104001 | SE03A |
 
 Disini kami membuat program e-bank sederhana dengan nama e-bank sejahtera guna untuk menyelesaikan tugas besar pada mata kuliah pemrograman berorientasi objek yang diampu oleh bapak dosen <em>Ariq Cahya Wardhana, S.Kom., M.Kom</em> dan juga dibantu oleh asisten praktikumnya yaitu Kak <em> Bagus Bayu Sasongko </em> dan <em> Kak Ajeng Fitria </em>, berkat semuanya akhirnya kami menyelesaikan tugas ini, walapun masih banyak kekurangannya.
 
@@ -24,12 +26,25 @@ Disini kami membuat program e-bank sederhana dengan nama e-bank sejahtera guna u
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
 </a>
 
+## :cyclone: Cara Penggunaan
 
-## :computer: Demo Aplikasi
-untuk demonya bisa di klik icon di sebelah kanan ini : [![run on repl.it](https://repl.it/badge/github/chalk/chalk)](https://repl.it/github/chalk/chalk)
+### Cara Running Program
+
+untuk merunning/menjalankan program ini yaitu bisa dengan ***2*** cara, yaitu :
+<ol>
+  <li><b>Memakai IDE Online</b></li>
+  <p>untuk memakai IDE Online contohnya bisa menggunakan website dari <b>Repl.it</b>, jika ingin menjalankannya anda bisa langsung mengcopy program filenya lalu paste ke <b>Repl.it</b> atau
+  jika anda tidak mau yang ribet anda bisa langsung klik icon di sebelah kanan ini :</P> [![run on repl.it](https://repl.it/badge/github/chalk/chalk)](https://repl.it/@lordacil/tubes-PBO)
+  <li> Memakai IDE/Text Editor Offline(berbentuk software) </li>
+  </ol>
+1. Memakai IDE Online
+  untuk memakai IDE Online contohnya bisa menggunakan website dari ***Repl.it***, jika ingin menjalankannya anda bisa langsung mengcopy program filenya lalu paste ke repl.it atau
+  jika anda tidak mau yang ribet anda bisa langsung klik icon di sebelah kanan ini : [![run on repl.it](https://repl.it/badge/github/chalk/chalk)](https://repl.it/@lordacil/tubes-PBO)
+2. Memakakai IDE/Text Editor Offline (berbentuk software)
+
 ## :bookmark_tabs: Class Diagram
 
-## :star2: Penjelasan Program
+## :star2: Fitur Program
 
 ## :video_camera: Video Penjelasan Coding, Class Diagram, dan Running Aplikasinya
 
