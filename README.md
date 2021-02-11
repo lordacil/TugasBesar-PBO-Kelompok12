@@ -42,7 +42,7 @@ untuk memakai IDE Online contohnya bisa menggunakan website dari <em>Repl.it</em
 
 cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall beberapa package terlebih dahulu agar program bisa di jalankan, berikut caranya :
 
-### Install Node JS
+- ### Install Node JS
 
  <details>
   <summary>install di <kbd>Windows</kbd></summary>
