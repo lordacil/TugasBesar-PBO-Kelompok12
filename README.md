@@ -32,15 +32,223 @@ Disini kami membuat program e-bank sederhana dengan nama e-bank sejahtera guna u
 
 untuk merunning/menjalankan program ini yaitu bisa dengan ***2*** cara, yaitu :
 
-1.**Memakai IDE Online**
+1. **Memakai IDE Online**
 
-untuk memakai IDE Online contohnya bisa menggunakan website dari <em>Repl.it</em>, jika ingin menjalankannya anda bisa langsung mengcopy program filenya lalu paste ke <em>Repl.it</em> atau jika anda tidak mau yang ribet anda bisa langsung klik icon di sebelah kanan ini : ![https://repl.it/@lordacil/tubes-PBO](images/chalk.svg)
+untuk memakai IDE Online contohnya bisa menggunakan website dari <em>Repl.it</em>, jika ingin menjalankannya anda bisa langsung mengcopy program filenya lalu paste ke <em>Repl.it</em> atau jika anda tidak mau yang ribet anda bisa langsung klik icon di bawah ini:
+
+![https://repl.it/@lordacil/tubes-PBO](images/chalk.svg)
 
 2. **Memakai IDE/Text Editor Offline(berbentuk software)**
+
+cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall beberapa package terlebih dahulu agar program bisa di jalankan, berikut caranya :
+
+### Install Node JS
+
+ <details>
+  <summary>install di <kbd>Windows</kbd></summary>
+  
+  - ```bash
+    $ sudo apt install zsh
+    ```
+  - ```bash
+    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    ```
+  - ```bash
+    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  
+  </details>
+  
+  <details>
+  <summary>install di <kbd>Arch Linux</kbd></summary>
+  
+  - ```bash
+    $ sudo apt install zsh
+    ```
+  - ```bash
+    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    ```
+  - ```bash
+    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  
+  </details>
+
+### Install NPM
+
+ <details>
+  <summary>install di <kbd>Windows</kbd></summary>
+  
+  - ```bash
+    $ sudo apt install zsh
+    ```
+  - ```bash
+    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    ```
+  - ```bash
+    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  
+  </details>
+  
+  <details>
+  <summary>install di <kbd>Arch Linux</kbd></summary>
+  
+  - ```bash
+    $ sudo apt install zsh
+    ```
+  - ```bash
+    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    ```
+  - ```bash
+    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  
+  </details>
+  
+  ### Install Package Prompt-sync
+
+ <details>
+  <summary>install di <kbd>Windows</kbd></summary>
+  
+  - ```bash
+    $ sudo apt install zsh
+    ```
+  - ```bash
+    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    ```
+  - ```bash
+    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  
+  </details>
+  
+   <details>
+  <summary>install di <kbd>Arch Linux</kbd></summary>
+  
+  - ```bash
+    $ sudo apt install zsh
+    ```
+  - ```bash
+    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    ```
+  - ```bash
+    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  
+  </details>
+  
+   ### Install Package Chalk
+  
+  <details>
+  <summary>install di <kbd>Windows</kbd></summary>
+  
+  - ```bash
+    $ sudo apt install zsh
+    ```
+  - ```bash
+    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    ```
+  - ```bash
+    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  
+  </details>
+  
+  <details>
+  <summary>install di <kbd>Arch Linux</kbd></summary>
+  
+  - ```bash
+    $ sudo apt install zsh
+    ```
+  - ```bash
+    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    ```
+  - ```bash
+    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  - ```bash
+    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  
+  </details>
 
 ## :bookmark_tabs: Class Diagram
 
 ## :star2: Fitur Program
+
+### Login
+
+### Register
+
+### Logout
+
+### Cek Saldo
+
+### Transfer Saldo
+
+### Ambil Saldo
+
+### Tambah Saldo
+
+## Menu Lainnya
+
+### Pembelian Pulsa
+
+### Pembayaran Listrik
 
 ## :video_camera: Video Penjelasan Coding, Class Diagram, dan Running Aplikasinya
 
