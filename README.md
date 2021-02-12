@@ -244,6 +244,8 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
 
 ### Cek Saldo
 
+![](images/ceksaldo.gif)
+
 ### Transfer Saldo
 
 ### Ambil Saldo
