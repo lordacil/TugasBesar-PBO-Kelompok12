@@ -240,6 +240,8 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
 
 ### Logout
 
+![](images/logout.gif)
+
 ### Cek Saldo
 
 ### Transfer Saldo
