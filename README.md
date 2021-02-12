@@ -232,6 +232,8 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
 
 ### Login
 
+![](images/login.gif)
+
 ### Register
 
 ### Logout
