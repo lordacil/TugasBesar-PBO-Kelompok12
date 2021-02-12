@@ -89,6 +89,7 @@ class Person {
 
   // arrow function untuk melihat informasi saldo
   cekSaldo = () => {
+    console.clear();
     console.log('\n\t\t\t===================================');
     console.log('\t\t -= ' + chalk.bold.white`Saldo anda saat ini adalah sebesar: ` + '=-' + `\n\t\t -= \t\t\t` + chalk.bold.cyan`Rp.${this.NilaiRupiah(res.saldo)}-,` + '\t\t\t=-');
     console.log('\t\t\t===================================\n');
@@ -103,6 +104,7 @@ class Person {
 
   // arrow function untuk menambah saldo
   tambahUang = (tambah) => {
+    console.clear();
     console.log('\n\t\t\t===================================');
     console.log('\t\t -= ' + chalk.bold.white`\tAnda menambah uang sejumlah: ` + '\t=-' + `\n\t\t -= \t\t\t` + chalk.bold.cyan`Rp.${this.NilaiRupiah(tambah)}-,` + '\t\t\t=-');
     console.log('\t\t\t===================================\n');
@@ -112,7 +114,7 @@ class Person {
   // arrow function untuk menstransfer saldo
   transfer = () => {
     var no = Number(prompt('Masukkan rekening tujuan\t: '));
-    var nominal = prompt('Masukkan jumlah kiriman\t\t: ');
+    var nominal = Number(prompt('Masukkan jumlah kiriman\t\t: '));
     var resultNorek = people.find(akunz => akunz.norek == no)
 
     // kondisi jika no rekening tidak ada/tidak cocok di array of object akun
@@ -123,13 +125,14 @@ class Person {
 
       // kondisi jika inputan no sama dengan object resultNorek dari norek
     } else if (no == resultNorek.norek) {
-      console.log(chalk.bold.white`\nAnda akan mentransfer sejumlah ${chalk.bold.cyan('Rp.' + this.NilaiRupiah(Number(nominal)))}\nke akun: ` + chalk.bold.cyan`${resultNorek.name}\n` + chalk.bold.white`dengan No Rekening: ` + chalk.bold.cyan`${resultNorek.pin}`);
+      console.log(chalk.bold.white`\nAnda akan mentransfer sejumlah ${chalk.bold.cyan('Rp.' + this.NilaiRupiah(Number(nominal)))}\nke akun: ` + chalk.bold.cyan`${resultNorek.name}\n` + chalk.bold.white`dengan No Rekening: ` + chalk.bold.cyan`${resultNorek.norek}`);
       var choose = prompt(chalk.bold.white`Apakah benar data tersebut? (` + chalk.bold.green`y` + `/` + chalk.bold.red`n` + `)`);
       if (choose === 'y') {
+        console.clear();
         console.log(chalk.bold.green`\n\t\t\t\t Transaksi sedang diproses...`);
         console.log('\n\t\t\t====================================');
         this.transaksi(nominal);
-        resultNorek.saldo = nominal;
+        resultNorek.saldo += nominal;
         console.log('\t\t\t====================================\n');
       } else {
         console.log('\n\t\t\t ===================================');
@@ -288,6 +291,7 @@ class Menu extends Person {
           if (session == false) {
             var userLog = prompt('Masukkan username\t\t: ');
             var pinLog = Number(prompt('Masukkan pin rekening\t: '));
+            console.clear();
             res = people.find(akunz => akunz.username === userLog && akunz.pin === pinLog)
             try {
               // kondisi jika array of object berisi 'undefined'
@@ -331,6 +335,7 @@ class Menu extends Person {
             var norek = Number(prompt('Masukkan Nomor Rekening\t: '));
             var pin = Number(prompt('Masukkan Pin Rekening\t: '));
             var conpin = Number(prompt('Masukkan ulang pin\t\t: '));
+            console.clear();
             if (pin !== conpin) {
               console.log('\n\t\t\t ===================================');
               console.log('\t\t   -= ' + warning(`\t\t [Pin tidak cocok !]`) + ' \t\t=-');
@@ -368,6 +373,7 @@ class Menu extends Person {
             // ketika user logout 
             register = false;
             session = false;
+            console.clear();
             console.log('\n\t\t\t ===================================');
             console.log('\t\t   -=  \t ' + chalk.bold.green` [Anda berhasil logout !]` + '\t\t=-');
             console.log('\t\t\t ===================================\n');
