@@ -236,6 +236,8 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
 
 ### Register
 
+![](images/registers.gif)
+
 ### Logout
 
 ### Cek Saldo
