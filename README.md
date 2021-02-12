@@ -226,6 +226,13 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
   
   </details>
 
+kalau sudah terinstall semuanya tinggal kita compile filenya menggunakan node.js, buka cmd/shell atau terminal kalian lalu ketik:
+
+``` bash
+    $ node (nama-file-programnya)
+    $ node index.js
+```
+
 ## :bookmark_tabs: Class Diagram
 
 ## :star2: Fitur Program
