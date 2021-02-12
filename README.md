@@ -250,13 +250,21 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
 
 ### Ambil Saldo
 
+![](images/ambiluang.gif)
+
 ### Tambah Saldo
+
+![](images/tambahuang.gif)
 
 ## Menu Lainnya
 
 ### Pembelian Pulsa
 
+![](images/pulsa.gif)
+
 ### Pembayaran Listrik
+
+![](images/listrik.gif)
 
 ## :video_camera: Video Penjelasan Coding, Class Diagram, dan Running Aplikasinya
 
