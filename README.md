@@ -36,7 +36,7 @@ untuk merunning/menjalankan program ini yaitu bisa dengan ***2*** cara, yaitu :
 
 untuk memakai IDE Online contohnya bisa menggunakan website dari <em>Repl.it</em>, jika ingin menjalankannya anda bisa langsung mengcopy program filenya lalu paste ke <em>Repl.it</em> atau jika anda tidak mau yang ribet anda bisa langsung klik icon di bawah ini:
 
-![https://repl.it/@lordacil/tubes-PBO](images/chalk.svg)
+[![Foo](images/chalk.svg)](https://repl.it/@lordacil/tubes-PBO)
 
 2. **Memakai IDE/Text Editor Offline(berbentuk software)**
 
