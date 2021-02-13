@@ -25,6 +25,9 @@ Disini kami membuat program e-bank sederhana dengan nama e-bank sejahtera dengan
 <a href="https://www.microsoft.com/id-id/">
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
 </a>
+<a href="https://www.npmjs.com/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/220px-Npm-logo.svg.png" width="35%">
+</a>
 
 ## :cyclone: Cara Penggunaan
 
