@@ -50,22 +50,17 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
  <details>
   <summary>install di <kbd>Windows</kbd></summary>
   
-  - ```bash
-    $ sudo apt install zsh
+ - ```bash
+    Download NodeJS (Included NPM) di situs resminya pilih yang windows installer dan sesuaikan bitnya
     ```
   - ```bash
-    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    Tinggal ikuti perintah step-by-stepnya
     ```
   - ```bash
-    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    $ node -v  # jika sudah selesai ketik command berikut pada terminal kalian untuk mengecek versi dan jika bisa berarti sudah tersintall
+    $ npm -v  # jika sudah selesai ketik command berikut pada terminal kalian untuk mengecek versi dan jika bisa berarti sudah tersintall
     ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-    ```
-  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  - berikut link lengkap tutorialnya : [install-NPM-dan-NodeJS-Windows](https://blogs.masterweb.com/cara-install-npm-di-windows/)
   
   </details>
   
@@ -96,22 +91,17 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
  <details>
   <summary>install di <kbd>Windows</kbd></summary>
   
-  - ```bash
-    $ sudo apt install zsh
+ - ```bash
+    Download NodeJS (Included NPM) di situs resminya pilih yang windows installer dan sesuaikan bitnya
     ```
   - ```bash
-    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    Tinggal ikuti perintah step-by-stepnya
     ```
   - ```bash
-    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    $ node -v  # jika sudah selesai ketik command berikut pada terminal kalian untuk mengecek versi dan jika bisa berarti sudah tersintall
+    $ npm -v  # jika sudah selesai ketik command berikut pada terminal kalian untuk mengecek versi dan jika bisa berarti sudah tersintall
     ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-    ```
-  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  - berikut link lengkap tutorialnya : [install-NPM-dan-NodeJS-Windows](https://blogs.masterweb.com/cara-install-npm-di-windows/)
   
   </details>
   
