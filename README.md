@@ -192,7 +192,7 @@ kalau sudah terinstall semuanya tinggal kita compile filenya menggunakan node.js
 
 ## :bookmark_tabs: Class Diagram UML
 
-![](images/classUML.png)
+![](images/diagramUML.png)
 
 ## :star2: Fitur Program
 
