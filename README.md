@@ -12,7 +12,7 @@ Assalamualikum wr.wb, Perkenalkan kami dari Kelompok-12 yang beranggotakan :
 | :boy: : **Fawwaz Muhammad Zulfikar** | 19104058 | SE03A |
 | :woman: : **Renna Nur Injayani** | 19104001 | SE03A |
 
-Disini kami membuat program e-bank sederhana dengan nama e-bank sejahtera guna untuk menyelesaikan tugas besar pada mata kuliah pemrograman berorientasi objek yang diampu oleh bapak dosen <em>Ariq Cahya Wardhana, S.Kom., M.Kom</em> dan juga dibantu oleh asisten praktikumnya yaitu Kak <em> Bagus Bayu Sasongko </em> dan <em> Kak Ajeng Fitria </em>, berkat semuanya akhirnya kami menyelesaikan tugas ini, walapun masih banyak kekurangannya.
+Disini kami membuat program e-bank sederhana dengan nama e-bank sejahtera dengan konsep OOP (Object Oriented Programming) pada bahasa pemrograman Javascript guna untuk menyelesaikan tugas besar pada mata kuliah pemrograman berorientasi objek yang diampu oleh bapak dosen <em>Ariq Cahya Wardhana, S.Kom., M.Kom</em> dan juga dibantu oleh asisten praktikumnya yaitu Kak <em> Bagus Bayu Sasongko </em> dan <em> Kak Ajeng Fitria </em>, berkat semuanya akhirnya kami menyelesaikan tugas ini, walapun masih banyak kekurangannya.
 
 **Powered by:**
 
