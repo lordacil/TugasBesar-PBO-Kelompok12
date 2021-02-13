@@ -70,21 +70,21 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
   <summary>install di <kbd>Arch Linux</kbd></summary>
   
   - ```bash
-    $ sudo apt install zsh
+    Install NodeJS lewat Pacman
     ```
   - ```bash
-    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    $ sudo pacman -Sy nodejs  # ketik command berikut pada terminal kalian:
     ```
   - ```bash
-    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    masukkan password user kalian lalu ketik (y) untuk setuju
+    dan tunggu proses download dan installna selesai secara otomatis......
     ```
   - ```bash
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    Dan NodeJS pun seharusnya telah terinstall di laptop/pc kalian
     ```
   - ```bash
-    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    $ node -v  # ketik command berikut pada terminal kalian untuk mengecek versi dan jika bisa berarti sudah tersintall
     ```
-  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
   
   </details>
 
@@ -116,21 +116,21 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
   <summary>install di <kbd>Arch Linux</kbd></summary>
   
   - ```bash
-    $ sudo apt install zsh
+    Install NPM lewat Pacman
     ```
   - ```bash
-    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    $ sudo pacman -S npm  # ketik command berikut pada terminal kalian:
     ```
   - ```bash
-    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    masukkan password user kalian lalu ketik (y) untuk setuju
+    dan tunggu proses download dan installna selesai secara otomatis......
     ```
   - ```bash
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    Dan NPM pun seharusnya telah terinstall di laptop/pc kalian
     ```
   - ```bash
-    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    $ npm -v  # ketik command berikut pada terminal kalian untuk mengecek versi dan jika bisa berarti sudah tersintall
     ```
-  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
   
   </details>
   
@@ -140,21 +140,12 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
   <summary>install di <kbd>Windows</kbd></summary>
   
   - ```bash
-    $ sudo apt install zsh
+    Pastikan anda sudah menginstall NPM dan Node.JS-nya
     ```
   - ```bash
-    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    $ npm install prompt-sync -g  # lalu ketik command berikut pada cmd/shell/terminal kalian:
     ```
-  - ```bash
-    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-    ```
-  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  - Dan package prompt-sync pun seharusnya telah terinstall di laptop/pc kalian secara global
   
   </details>
   
@@ -162,21 +153,12 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
   <summary>install di <kbd>Arch Linux</kbd></summary>
   
   - ```bash
-    $ sudo apt install zsh
+    Pastikan anda sudah menginstall NPM dan Node.JS-nya
     ```
   - ```bash
-    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    $ npm install prompt-sync -g  # lalu ketik command berikut pada cmd/shell/terminal kalian:
     ```
-  - ```bash
-    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-    ```
-  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  - Dan package prompt-sync pun seharusnya telah terinstall di laptop/pc kalian secara global
   
   </details>
   
@@ -185,44 +167,26 @@ cara yang kedua ini cukup ribet ya karena kita diharuskan sudah menginstall bebe
   <details>
   <summary>install di <kbd>Windows</kbd></summary>
   
-  - ```bash
-    $ sudo apt install zsh
+   - ```bash
+    Pastikan anda sudah menginstall NPM dan Node.JS-nya
     ```
   - ```bash
-    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    $ npm install chalk -g  # lalu ketik command berikut pada cmd/shell/terminal kalian:
     ```
-  - ```bash
-    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-    ```
-  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  - Dan package chalk pun seharusnya telah terinstall di laptop/pc kalian secara global
   
   </details>
   
   <details>
   <summary>install di <kbd>Arch Linux</kbd></summary>
   
-  - ```bash
-    $ sudo apt install zsh
+   - ```bash
+    Pastikan anda sudah menginstall NPM dan Node.JS-nya
     ```
   - ```bash
-    $ chsh -s `which zsh` # Change default shell to zsh for current user
+    $ npm install chalk -g  # lalu ketik command berikut pada cmd/shell/terminal kalian:
     ```
-  - ```bash
-    $ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    ```
-  - ```bash
-    $ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-    ```
-  - [zsh-completions](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-completions&package=zsh-completions)
+  - Dan package chalk pun seharusnya telah terinstall di laptop/pc kalian secara global
   
   </details>
 
