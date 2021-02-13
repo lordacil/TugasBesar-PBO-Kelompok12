@@ -233,7 +233,9 @@ kalau sudah terinstall semuanya tinggal kita compile filenya menggunakan node.js
     $ node index.js
 ```
 
-## :bookmark_tabs: Class Diagram
+## :bookmark_tabs: Class Diagram UML
+
+![](images/classUML.png)
 
 ## :star2: Fitur Program
 
