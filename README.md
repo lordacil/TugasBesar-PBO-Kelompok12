@@ -13,7 +13,8 @@ Assalamualikum wr.wb, Perkenalkan kami dari Kelompok-12 yang beranggotakan :
 | :woman: : **Renna Nur Injayani** | 18104019 | SE02A/SE03A |
 
 Disini kami membuat program e-bank sederhana dengan nama e-bank sejahtera dengan konsep OOP (Object Oriented Programming) pada bahasa pemrograman Javascript guna untuk menyelesaikan tugas besar pada mata kuliah pemrograman berorientasi objek yang diampu oleh bapak dosen <em>Ariq Cahya Wardhana, S.Kom., M.Kom</em> dan juga dibantu oleh asisten praktikumnya yaitu Kak <em> Bagus Bayu Sasongko </em> dan <em> Kak Ajeng Fitria </em>, berkat semuanya akhirnya kami menyelesaikan tugas ini, walapun masih banyak kekurangannya.
-pada dasarnya aplikasi ini e-banking ini adalah sebuah layanan perbankan  yang menggunakan  media elektronik  sebagai  perantarannya,sehingga  nasabah t idak lagi dilayani oleh teller ataupun costumer services. Tujuan dari E-banking adalah sebagai sarana penyediaan multi channeldan juga dapat menghemat biaya transaksi bank, nasabah lebih  bebas, mudah, cepat dan aman bertransaksi 24 jam dimanapun nasabah berada.
+
+Pada dasarnya aplikasi ini e-banking ini adalah sebuah layanan perbankan  yang menggunakan  media elektronik  sebagai  perantarannya,sehingga  nasabah t idak lagi dilayani oleh teller ataupun costumer services. Tujuan dari E-banking adalah sebagai sarana penyediaan multi channeldan juga dapat menghemat biaya transaksi bank, nasabah lebih  bebas, mudah, cepat dan aman bertransaksi 24 jam dimanapun nasabah berada.
 
 **Powered by:**
 
