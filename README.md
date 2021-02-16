@@ -238,7 +238,7 @@ kalau sudah terinstall semuanya tinggal kita compile filenya menggunakan node.js
 
 berikut link video youtube tentang penjelasan coding, class diagram, dan running aplikasi bisa di klik pada icon di bawah ini:
 
-<a href="https://www.youtube.com/channel/UChDIv8GsgR2JUc9_q_EoVqA">
+<a href="https://youtu.be/5s-7U29tAkI">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
 </a>
 
