@@ -29,6 +29,11 @@ Disini kami membuat program e-bank sederhana dengan nama e-bank sejahtera dengan
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/220px-Npm-logo.svg.png" width="7%">
 </a>
 
+## :star: Tujuan
+- Mempermudah nasabah dalam bertransaksi perbankan, karena dengan internet banking akses perbankan dapat dilakukan di komputer pribadi (personal computer) tanpa harus datang ke kantor cabang.
+- Mempercepat kegiatan transaksi perbankan, hanya dengan  modal computer pribadi, nasabah dapat mengakses transaksi apapun dengan komputer. Tanpa membuang-buang waktu untuk datang dan mengisi formulir di kantor cabang.
+- Menghemat biaya seperti menghemat ongkos jalan ke kantor cabang.
+
 ## :cyclone: Cara Penggunaan
 
 ### Cara Running Program
